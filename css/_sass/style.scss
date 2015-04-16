@@ -14,8 +14,8 @@ body, h1, img {
 		color: $colorRed;
 	}
 
-/*topo*/
-.topo {
+/*top*/
+.top {
 	background: #fff;
 	border-bottom: 2px solid $colorRed;
 	-webkit-box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
@@ -77,7 +77,7 @@ h1 img {
 		padding-left: 15px;
 	}
 
-	.produtos { 
+	.products { 
 		overflow: hidden;
 		padding: 0;
 	
@@ -117,12 +117,12 @@ h1 img {
 	}
 
 	
-	.fornecedores {
+	.suppliers {
 		border-top: 2px solid $colorRed;
 		padding-top: 10px;
 	}
 
-	.logoFornecedores {
+	.logoSuppliers {
 		overflow: hidden;
 		width: 100%;
 		padding: 0;
@@ -136,14 +136,14 @@ h1 img {
 		}
 }
 
-/*rodape*/
+/*footer*/
 .col {
 	font-size: 0.75em;
 	padding: 5% 2%;
 	overflow: hidden;
 	line-height: 145%;
 	
-	.esquerdaContent, .direitaContent {
+	.leftContent, .rightContent {
 		margin: 0 auto;	
 		overflow: hidden;
 		padding-left: 25px;
@@ -162,19 +162,19 @@ h1 img {
 		margin-left: 14px;
 	}
 }
-.esquerda, .direita {
+.left, .right {
 	float:left;
 	border-top: 1px solid #cecece;
 	}
-	.esquerda img, .direita img{
+	.left img, .right img{
 		margin-top: 22px;
 	}
 
-.contatosInfo {
+.contactInfo {
 	background: #ededed;
 	width: 100%;
 	
-	.contatosContent {
+	.contactContent {
 		max-width: 1100px;
 		margin: 0 auto;
 		overflow: hidden;
@@ -192,8 +192,7 @@ h1 img {
 
 
 @media screen and (min-width: 420px){
-
-.topo{
+.top{
 	
 	a {
 		color: #000;
@@ -215,7 +214,7 @@ h1 img {
 	}
 }
 
-.content .produtos li {
+.content .products li {
 		width: 46%;
 		height: 0;
 		padding-bottom: 43%;
@@ -228,11 +227,11 @@ h1 img {
 	}
 
 
-	.logoFornecedores 	li {
+	.logoSuppliers 	li {
 		width: 33%;
 	}
 
-	.esquerda, .direita {
+	.left, .right {
 		float:left;
 		border-top: 1px solid #cecece;
 		width: 100%;
@@ -243,10 +242,10 @@ h1 img {
 
 
 @media screen and (min-width: 550px){
-.logoFornecedores 	li {
+.logoSuppliers 	li {
 		width: 25%;
 	}
-.content .produtos li {
+.content .products li {
 		width: 30%;
 		height: 0;
 		padding-bottom: 29%;
@@ -255,7 +254,7 @@ h1 img {
 
 
 @media screen and (min-width: 735px){
-.logoFornecedores li {
+.logoSuppliers li {
 		width: 13%;
 		margin-left:9px;
 
@@ -267,13 +266,13 @@ h1 img {
 }
 
 @media screen and (min-width: 930px){
-.esquerda, .direita {
+.left, .right {
 	float:left;
 	border-top: 1px solid #cecece;
 	width: 50%;
 	padding: 5% 0;	
 }
-	.esquerda { 
+	.left { 
 		width: 45%;
 		padding-left: 5%;
 	}
@@ -286,7 +285,7 @@ h1 img {
 }
 }
 @media screen and (min-width: 1000px){
-.content .produtos li {
+.content .products li {
 		width: 23%;
 		height: 0;
 		padding-bottom: 21%;
@@ -301,7 +300,7 @@ h1 img {
 	}
 }
 
-.logoFornecedores li {
+.logoSuppliers li {
 		width: 14%;
 		margin-left: 0;
 
@@ -314,25 +313,25 @@ h1 img {
 	margin-left: 0;
 	}
 
-.esquerda, .direita {
+.left, .right {
 	border-top: none;
 	width: 42%;
 	padding: 0;	
 	}
-	.esquerda { 
+	.left { 
 		width: 43%;
 		margin-left: 54px;
 	}
-	.direita {
+	.right {
 		border-left: 1px solid;
 		padding-left: 90px;
 	}
 
-.contatosInfo .contatosContent{
+.contactInfo .contactContent{
 	padding: 40px 0;
 }
 
-.content .produtos li {
+.content .products li {
 		width: 23%;
 		height: 0;
 		padding-bottom:21%;

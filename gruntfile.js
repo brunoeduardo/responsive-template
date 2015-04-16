@@ -4,7 +4,7 @@ module.exports = function( grunt ) {
     // Tasks que o Grunt deve executar
         sass : {
       dist : {
-        options : { style : 'compressed' },
+        options : { style : 'expanded' },
         files : {
           'css/style.css' : 'css/_sass/style.scss'
         }

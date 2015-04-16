@@ -1,1 +1,301 @@
-body,h1,img{margin:0;padding:0;font-family:arial}a{color:#000;text-decoration:none}a:hover{color:#d63e27}.topo{background:#fff;border-bottom:2px solid #d63e27;-webkit-box-shadow:0px 2px 20px 0px rgba(50,50,37,0.75);-moz-box-shadow:0px 2px 20px 0px rgba(50,50,37,0.75);box-shadow:0px 2px 20px 0px rgba(50,50,37,0.75);padding-top:2%;overflow:hidden}.topo a{color:#000;text-decoration:none;text-align:center;margin:8% 0 5%;display:block;font-size:0.9em}.topo a span{background:url(../img/mail-icon.png) no-repeat;width:6%;height:0;display:inline-table;padding-bottom:4%;margin-right:5px;background-size:100% 100%}.topo div{max-width:1100px;margin:0 auto}h1 img{margin:5% auto;display:block}.content{max-width:1100px;margin:0 auto;padding:0 5px}.content h2{font-size:1.25em;color:#d63e27;margin-top:35px;padding-left:15px}.content p{color:#000;margin:8px 0;font-size:0.9em;line-height:130%;padding-left:15px}.content .produtos{overflow:hidden;padding:0}.content .produtos li{width:100%;height:0;border:1px solid #dddcdc;border-top:3px solid #d63e27;margin:10px 5px;position:relative;overflow:hidden;padding-bottom:90%}.content .produtos li span{background:#5f6060;width:100%;color:#fff;font-size:12px;display:block;bottom:0;position:absolute;height:26px;line-height:26px}.content .produtos li img{width:100%}.content li.margin{margin-right:10px}.content .fornecedores{border-top:2px solid #d63e27;padding-top:10px}.content .logoFornecedores{overflow:hidden;width:100%;padding:0}.content li{list-style:none;float:left;width:50%;margin-bottom:5px;text-align:center}.col{font-size:0.75em;padding:5% 2%;overflow:hidden;line-height:145%}.col .esquerdaContent,.col .direitaContent{margin:0 auto;overflow:hidden;padding-left:25px}.col img{width:35px;float:left}.col p{float:left;width:75%;margin-left:14px}.esquerda,.direita{float:left;border-top:1px solid #cecece}.esquerda img,.direita img{margin-top:22px}.contatosInfo{background:#ededed;width:100%}.contatosInfo .contatosContent{max-width:1100px;margin:0 auto;overflow:hidden}.copyright{background:#d63e27;font-size:0.7em;text-align:center;height:32px;color:#fff;line-height:300%}@media screen and (min-width: 420px){.topo a{color:#000;text-decoration:none;text-align:center;margin:30px 10px 25px;display:block;float:right}.topo a span{background:url(../img/mail-icon.png) no-repeat;width:20px;height:13px;margin-top:10px;padding-bottom:0;background-size:100%}.content .produtos li{width:46%;height:0;padding-bottom:43%}h1 img{margin:10px 2% 5%;float:left}.logoFornecedores li{width:33%}.esquerda,.direita{float:left;border-top:1px solid #cecece;width:100%;padding:5% 15%}}@media screen and (min-width: 550px){.logoFornecedores li{width:25%}.content .produtos li{width:30%;height:0;padding-bottom:29%}}@media screen and (min-width: 735px){.logoFornecedores li{width:13%;margin-left:9px}.logoFornecedores li img{width:100%}}@media screen and (min-width: 930px){.esquerda,.direita{float:left;border-top:1px solid #cecece;width:50%;padding:5% 0}.esquerda{width:45%;padding-left:5%}.col p{width:87%}}@media screen and (min-width: 1000px){.content .produtos li{width:23%;height:0;padding-bottom:21%}.col p{float:left;width:85%;margin-left:14px}.logoFornecedores li{width:14%;margin-left:0}.logoFornecedores li img{width:126px}#first{margin-left:0}.esquerda,.direita{border-top:none;width:42%;padding:0}.esquerda{width:43%;margin-left:54px}.direita{border-left:1px solid;padding-left:90px}.contatosInfo .contatosContent{padding:40px 0}.content .produtos li{width:23%;height:0;padding-bottom:21%;margin:10px 9px}}
+body, h1, img {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d63e27;
+}
+
+/*top*/
+.top {
+  background: #fff;
+  border-bottom: 2px solid #d63e27;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
+  -moz-box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
+  box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
+  padding-top: 2%;
+  overflow: hidden;
+}
+.top a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  margin: 8% 0 5%;
+  display: block;
+  font-size: 0.9em;
+}
+.top a span {
+  background: url(../img/mail-icon.png) no-repeat;
+  width: 6%;
+  height: 0;
+  display: inline-table;
+  padding-bottom: 4%;
+  margin-right: 5px;
+  background-size: 100% 100%;
+}
+.top div {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1 img {
+  margin: 5% auto;
+  display: block;
+}
+
+/*miolo*/
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+.content h2 {
+  font-size: 1.25em;
+  color: #d63e27;
+  margin-top: 35px;
+  padding-left: 15px;
+}
+.content p {
+  color: #000;
+  margin: 8px 0;
+  font-size: 0.9em;
+  line-height: 130%;
+  padding-left: 15px;
+}
+.content .products {
+  overflow: hidden;
+  padding: 0;
+}
+.content .products li {
+  width: 100%;
+  /*max-width:260px;*/
+  height: 0;
+  border: 1px solid #dddcdc;
+  border-top: 3px solid #d63e27;
+  margin: 10px 5px;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 90%;
+}
+.content .products li span {
+  background: #5f6060;
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  bottom: 0;
+  position: absolute;
+  height: 26px;
+  line-height: 26px;
+}
+.content .products li img {
+  width: 100%;
+}
+.content li.margin {
+  margin-right: 10px;
+}
+.content .suppliers {
+  border-top: 2px solid #d63e27;
+  padding-top: 10px;
+}
+.content .logoSuppliers {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+.content li {
+  list-style: none;
+  float: left;
+  width: 50%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/*footer*/
+.col {
+  font-size: 0.75em;
+  padding: 5% 2%;
+  overflow: hidden;
+  line-height: 145%;
+}
+.col .leftContent, .col .rightContent {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 25px;
+}
+.col img {
+  width: 35px;
+  float: left;
+}
+.col p {
+  float: left;
+  width: 75%;
+  margin-left: 14px;
+}
+
+.left, .right {
+  float: left;
+  border-top: 1px solid #cecece;
+}
+
+.left img, .right img {
+  margin-top: 22px;
+}
+
+.contactInfo {
+  background: #ededed;
+  width: 100%;
+}
+.contactInfo .contactContent {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.copyright {
+  background: #d63e27;
+  font-size: 0.7em;
+  text-align: center;
+  height: 32px;
+  color: #fff;
+  line-height: 300%;
+}
+
+@media screen and (min-width: 420px) {
+  .top a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 10px 25px;
+    display: block;
+    float: right;
+  }
+  .top a span {
+    background: url(../img/mail-icon.png) no-repeat;
+    width: 20px;
+    height: 13px;
+    margin-top: 10px;
+    padding-bottom: 0;
+    background-size: 100%;
+  }
+
+  .content .products li {
+    width: 46%;
+    height: 0;
+    padding-bottom: 43%;
+  }
+
+  h1 img {
+    margin: 10px 2% 5%;
+    float: left;
+  }
+
+  .logoSuppliers li {
+    width: 33%;
+  }
+
+  .left, .right {
+    float: left;
+    border-top: 1px solid #cecece;
+    width: 100%;
+    padding: 5% 15%;
+  }
+}
+@media screen and (min-width: 550px) {
+  .logoSuppliers li {
+    width: 25%;
+  }
+
+  .content .products li {
+    width: 30%;
+    height: 0;
+    padding-bottom: 29%;
+  }
+}
+@media screen and (min-width: 735px) {
+  .logoSuppliers li {
+    width: 13%;
+    margin-left: 9px;
+  }
+  .logoSuppliers li img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 930px) {
+  .left, .right {
+    float: left;
+    border-top: 1px solid #cecece;
+    width: 50%;
+    padding: 5% 0;
+  }
+
+  .left {
+    width: 45%;
+    padding-left: 5%;
+  }
+
+  .col p {
+    width: 87%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .content .products li {
+    width: 23%;
+    height: 0;
+    padding-bottom: 21%;
+  }
+
+  .col p {
+    float: left;
+    width: 85%;
+    margin-left: 14px;
+  }
+
+  .logoSuppliers li {
+    width: 14%;
+    margin-left: 0;
+  }
+  .logoSuppliers li img {
+    width: 126px;
+  }
+
+  #first {
+    margin-left: 0;
+  }
+
+  .left, .right {
+    border-top: none;
+    width: 42%;
+    padding: 0;
+  }
+
+  .left {
+    width: 43%;
+    margin-left: 54px;
+  }
+
+  .right {
+    border-left: 1px solid;
+    padding-left: 90px;
+  }
+
+  .contactInfo .contactContent {
+    padding: 40px 0;
+  }
+
+  .content .products li {
+    width: 23%;
+    height: 0;
+    padding-bottom: 21%;
+    margin: 10px 9px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
