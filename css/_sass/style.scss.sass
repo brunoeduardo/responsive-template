@@ -1,0 +1,126 @@
+$colorRed: #d63e27
+$colorBlack: #000
+
+body, h1, img
+	margin: 0
+	padding: 0
+	font-family: arial
+
+body
+
+
+/*topo*/
+.topo{
+	background: #fff;
+	border-bottom: 2px solid $colorRed;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
+	-moz-box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
+	box-shadow: 0px 2px 20px 0px rgba(50, 50, 37, 0.75);
+	padding-top: 2%;
+
+
+	a {
+		color: #000;
+		text-decoration: none;
+		text-align: center;
+		margin: 8% 0 5%; 
+		display: block;
+		font-size: 0.9em;
+		}
+
+	a:hover {
+		color: $colorRed;
+	}
+
+	a span {
+		background: url(../img/mail-icon.png) no-repeat;
+		width: 6%;
+		height: 0;
+		display: inline-table;
+		padding-bottom: 4%
+		margin-right: 5px
+		background-size: 100% 100%
+		}
+	
+	div {
+		max-width: 1100px
+		margin: 0 auto
+		}
+
+h1 img 
+	margin: 5% auto
+	display: block
+	
+/*miolo*/
+.content
+	max-width: 1100px
+	margin: 0 auto
+	padding: 0 5px 
+
+	h2
+		font-size: 1.25em
+		color: $colorRed
+		margin-top: 15%
+
+	p
+		color: $colorBlack
+		margin: 2% 0 
+		font-size: 0.9em
+		line-height: 130%
+
+	.fornecedores
+		border-top: 2px solid $colorRed
+		padding-top: 10px
+
+	.logoFornecedores
+		overflow: hidden
+		width: 100%
+		padding: 0 
+		
+		li
+			list-style: none
+			float: left
+			width: 50%
+			margin-bottom: 5px
+			text-align: center
+
+/*rodape*/
+.col
+	font-size: 0.75em
+	padding: 5% 2%
+	overflow: hidden
+	line-height: 145%
+	
+	img
+		width: 35px
+		float: left
+
+.esquerda, .direita
+	float:left
+	border-top: 1px solid #cecece
+
+	p
+		float: left
+		width: 75%
+		margin-left: 14px
+
+
+.contatosInfo
+	background: #ededed
+	width: 100%
+
+
+.copyright 
+	background: $colorRed
+	font-size: 0.7em
+	text-align: center
+	height: 32px
+	color: #fff
+	line-height: 300%
+
+
+@media screen and (min-width: 420px){
+.logoFornecedores 
+	li
+		width: 30%
+	}
