@@ -11,7 +11,7 @@
 <body>
 	<header class="top">
 		<div>	
-			<h1><img src="img/logo.png" alt="company logo" width="177" height="82"></h1>
+			<h1><img src="img/logo.jpg" alt="company logo" width="177" height="82"></h1>
 			<a href="#"><span></span>email@email.com</a>
 		</div>
 	</header>
@@ -23,7 +23,6 @@
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id tincidunt dolor. Quisque dictum nisl porta purus sagittis, at varius ex congue. Sed est sapien, ullamcorper eu sollicitudin quis, molestie ut nunc. Suspendisse imperdiet id nisl eu finibus. Duis fringilla nunc et eros tempor tempor. 
 		</p>
-
 		<ul class="products">
 			<li><img src="img/product.jpg" alt="Product name"><span>Product name</span></li>
 			<li><img src="img/product.jpg" alt="Product name"><span>Product name</span></li>
@@ -38,16 +37,16 @@
 <!-- suppliers -->
 		<h2 class="suppliers">Suppliers</h2>
 		<ul class="logoSuppliers">
-			<li id="first"><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
-			<li><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
-			<li><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
-			<li><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
-			<li><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
-			<li><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
-			<li><a href="#" target="_blank"><img src="img/logo.jpg" alt="logo" ></a></li>
+			<li id="first"><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
+			<li><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
+			<li><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
+			<li><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
+			<li><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
+			<li><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
+			<li><a href="#" target="_blank"><img src="img/logo-client.jpg" alt="logo client" ></a></li>
 		</ul>
 	</section>
-
+<!-- footer -->
 	<footer>
 		<div class="contactInfo">
 			<div class="contactContent">
@@ -74,8 +73,14 @@
 			</div>
 		</div>
 		<div class="copyright">
-			Copyright © <span id="year"><span> Company name. All Rights Reserved.
+			Copyright © <span id="dateY"></span> Company name. All Rights Reserved.
 		</div>
 	</footer>
+<!-- date footer-->
+	<script>
+		var today = new Date();
+		var year = today.getFullYear();
+		document.getElementById("dateY").innerHTML = year
+	</script>
 </body>
 </html>
